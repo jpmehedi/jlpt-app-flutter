@@ -1,4 +1,4 @@
-class Data {
+class LessonOne {
   final List<Map<String, String>> listOfColumns = [
     {"romaji": "watachi", "japanese": "わたし", "bangla": "আমি"},
     {"romaji": "watashitachi", "japanese": "わたしたち", "bangla": "আমরা "},

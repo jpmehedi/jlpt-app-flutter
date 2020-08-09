@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import './data/lesson_one.dart';
 
-class LessonOne extends StatelessWidget {
-  Data data = Data();
+class LessonOneScreen extends StatefulWidget {
+  @override
+  _LessonOneScreenState createState() => _LessonOneScreenState();
+}
+
+class _LessonOneScreenState extends State<LessonOneScreen> {
+  LessonOne lessonOne = LessonOne();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +41,7 @@ class LessonOne extends StatelessWidget {
                   style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 )),
               ],
-              rows: data.listOfColumns
+              rows: lessonOne.listOfColumns
                   .map(
                     ((element) => DataRow(
                           cells: <DataCell>[

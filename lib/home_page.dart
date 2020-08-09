@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:jlpt5/lesson_one.dart';
+import 'package:jlpt5/lesson_one_screen.dart';
 
 class HomePage extends StatefulWidget {
   static String id = "HomePage";
@@ -24,57 +24,73 @@ class _HomePageState extends State<HomePage> {
               LessonButtonBuilder(
                 buttonText: 'Lesson One',
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LessonOne()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LessonOneScreen()));
                 },
               ),
               LessonButtonBuilder(
                 buttonText: 'Lesson Two',
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LessonOne()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LessonOneScreen()));
                 },
               ),
               LessonButtonBuilder(
                 buttonText: 'Lesson Three',
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LessonOne()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LessonOneScreen()));
                 },
               ),
               LessonButtonBuilder(
                 buttonText: 'Lesson Four',
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LessonOne()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LessonOneScreen()));
                 },
               ),
               LessonButtonBuilder(
                 buttonText: 'Lesson Five',
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LessonOne()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LessonOneScreen()));
                 },
               ),
               LessonButtonBuilder(
                 buttonText: 'Lesson Six',
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LessonOne()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LessonOneScreen()));
                 },
               ),
               LessonButtonBuilder(
                 buttonText: 'Lesson Seven',
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LessonOne()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LessonOneScreen()));
                 },
               ),
               LessonButtonBuilder(
                 buttonText: 'Lesson Ten',
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => LessonOne()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => LessonOneScreen()));
                 },
               ),
             ],
