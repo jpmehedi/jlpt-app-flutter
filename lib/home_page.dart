@@ -15,6 +15,64 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text("JLPT N5"),
       ),
+      drawer: Drawer(
+        child: ListView(
+          children: <Widget>[
+            Image.asset('assets/nihongo.jpg'),
+            Divider(
+              thickness: 5,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 18, top: 20),
+              child: Text(
+                "Basic Level N5",
+                style: TextStyle(
+                    fontSize: 16,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold),
+              ),
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_one),
+              title: Text("Vocabulary"),
+              trailing: Icon(Icons.navigate_next),
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_two),
+              title: Text("Grammar"),
+              trailing: Icon(Icons.navigate_next),
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_3),
+              title: Text("Kanji"),
+              trailing: Icon(Icons.navigate_next),
+            ),
+            ListTile(
+              leading: Icon(Icons.looks_4),
+              title: Text("Listening"),
+              trailing: Icon(Icons.navigate_next),
+            ),
+            Divider(
+              thickness: 5,
+            ),
+            ListTile(
+              leading: Icon(Icons.wrap_text),
+              title: Text("Practice writing"),
+              trailing: Icon(Icons.navigate_next),
+            ),
+            ListTile(
+              leading: Icon(Icons.rate_review),
+              title: Text("Rate App"),
+              trailing: Icon(Icons.navigate_next),
+            ),
+            ListTile(
+              leading: Icon(Icons.share),
+              title: Text("Share App"),
+              trailing: Icon(Icons.navigate_next),
+            ),
+          ],
+        ),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Container(
